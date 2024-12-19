@@ -1,0 +1,71 @@
+{
+  "items": [
+    {
+      "url": "/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/api/donations",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "/api/users/{userId}/donations",
+      "type": "api",
+      "status": "success",
+      "method": "GET"
+    },
+    {
+      "url": "/api/payments/stripe/webhook",
+      "type": "api",
+      "status": "success",
+      "method": "POST"
+    },
+    {
+      "url": "dashboard/user/donations/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/donations/history/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/payment/success/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "dashboard/user/payment/cancel/page.tsx",
+      "type": "page",
+      "status": "success",
+      "userType": "user",
+      "access": "private"
+    },
+    {
+      "url": "/(auth)/register/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    },
+    {
+      "url": "/(auth)/login/page.tsx",
+      "type": "page",
+      "status": "success",
+      "access": "public",
+      "userType": "all"
+    }
+  ]
+}
